@@ -131,7 +131,8 @@ flowchart LR
 ## Part 3: Cloud Deployment
 
 ### Exercise 3.1 / 3.2: Deploy Agent Part 6 (`06-lab-complete/`)
-- **URL:** `https://<YOUR_PUBLIC_URL>` *(điền URL thật sau khi deploy lên Railway/Render)*
+- **Platform:** Render
+- **URL:** https://k5-l3b-day14-tranduymanh-2a202603998.onrender.com
 - **Screenshots:** [dashboard.png](screenshots/dashboard.png), [running.png](screenshots/running.png), [test.png](screenshots/test.png)
 
 ### So sánh `railway.toml` vs `render.yaml`

@@ -1,16 +1,16 @@
 # Deployment Information
 
 ## Public URL
-https://<YOUR_PUBLIC_URL>
+https://k5-l3b-day14-tranduymanh-2a202603998.onrender.com
 
 ## Platform
-Railway / Render *(chọn nền tảng bạn đã deploy)*
+Render
 
 ## Test Commands
 
 ### 1. Health & Readiness Check
 ```bash
-BASE="https://<YOUR_PUBLIC_URL>"
+BASE="https://k5-l3b-day14-tranduymanh-2a202603998.onrender.com"
 curl -sS -o /dev/null -w '%{http_code}\n' "$BASE/health"   # Expected: 200
 curl -sS -o /dev/null -w '%{http_code}\n' "$BASE/ready"    # Expected: 200
 ```
